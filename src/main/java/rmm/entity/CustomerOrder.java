@@ -54,52 +54,5 @@ public class CustomerOrder {
 	@Setter
 	@Column(name="unit_cost")
 	private BigDecimal unitCost;
-
-	public BigDecimal getUnitCost() {
-		return unitCost;
-	}
-
-	public void setUnitCost(BigDecimal unitCost) {
-		this.unitCost = unitCost;
-	}
 	
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
-	}
-
-	public Integer getCustomerId() {
-		return customerId;
-	}
-
-	public void setCustomerId(Integer customerId) {
-		this.customerId = customerId;
-	}
-
-	public Integer getDeviceId() {
-		return deviceId;
-	}
-
-	public void setDeviceId(Integer deviceId) {
-		this.deviceId = deviceId;
-	}
-
-	public Integer getDeviceServiceId() {
-		return deviceServiceId;
-	}
-
-	public void setDeviceServiceId(Integer deviceServiceId) {
-		this.deviceServiceId = deviceServiceId;
-	}
-
-	public Integer getCustomerOrderQuantity() {
-		return customerOrderQuantity;
-	}
-
-	public void setCustomerOrderQuantity(Integer customerOrderQuantity) {
-		this.customerOrderQuantity = customerOrderQuantity;
-	}
 }

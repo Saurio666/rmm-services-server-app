@@ -42,41 +42,4 @@ public class DeviceServiceEntity {
 	@Setter
 	@Column (name = "device_service_cost")
 	private BigDecimal deviceServiceCost;
-
-//	public Integer getDeviceServiceId() {
-//		return deviceServiceId;
-//	}
-//
-//	public void setDeviceServiceId(Integer deviceServiceId) {
-//		this.deviceServiceId = deviceServiceId;
-//	}
-//
-//	public String getDeviceServiceName() {
-//		return deviceServiceName;
-//	}
-//
-//	public void setDeviceServiceName(String deviceServiceName) {
-//		this.deviceServiceName = deviceServiceName;
-//	}
-//
-//	public String getDeviceServiceDescription() {
-//		return deviceServiceDescription;
-//	}
-//
-//	public void setDeviceServiceDescription(String deviceServiceDescription) {
-//		this.deviceServiceDescription = deviceServiceDescription;
-//	}
-//
-//	public BigDecimal getDeviceServiceCost() {
-//		return deviceServiceCost;
-//	}
-//
-//	public void setDeviceServiceCost(BigDecimal deviceServiceCost) {
-//		this.deviceServiceCost = deviceServiceCost;
-//	}
-	
-//	@Getter
-//	@Setter
-//	@Column (name = "type")
-//	private String type;
 }
