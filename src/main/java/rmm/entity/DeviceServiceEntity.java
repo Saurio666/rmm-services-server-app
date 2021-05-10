@@ -42,4 +42,5 @@ public class DeviceServiceEntity {
 	@Setter
 	@Column (name = "device_service_cost")
 	private BigDecimal deviceServiceCost;
+	
 }

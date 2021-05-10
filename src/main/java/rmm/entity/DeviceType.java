@@ -35,5 +35,4 @@ public class DeviceType {
 	@Setter
 	@Column(name="device_type_cost")
 	private BigDecimal cost;
-	
 }

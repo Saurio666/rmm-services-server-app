@@ -53,6 +53,5 @@ public class CustomerOrder {
 	@Getter
 	@Setter
 	@Column(name="unit_cost")
-	private BigDecimal unitCost;
-	
+	private BigDecimal unitCost;	
 }

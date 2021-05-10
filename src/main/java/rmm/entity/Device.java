@@ -44,5 +44,4 @@ public class Device {
 	@Setter
 	@Column(name = "customer_id")
 	private Integer customerId;
-	
 }
